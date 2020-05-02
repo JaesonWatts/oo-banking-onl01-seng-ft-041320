@@ -1,5 +1,6 @@
 class BankAccount
 
+  att_accessor :name
 
   def initialize(name)
     @name = name
