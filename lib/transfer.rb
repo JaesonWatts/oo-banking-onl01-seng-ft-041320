@@ -1,6 +1,6 @@
 class Transfer
 
-  attr_accessor :name
+  attr_accessor :name, :new_name
 
   def initialize
     @name = name
