@@ -12,7 +12,6 @@ class Transfer
   end
 
   def valid?
-    binding.pry
     (@receiver.status=="open"&&@receiver.balance)&&(@sender.status=="open"&&@sender.balance) > 0 ? true : false
   end
 
